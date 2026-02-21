@@ -36,7 +36,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
 | **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
 | **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | *![diagrama1](./../images/diagrama1.png)*|
 | **Poscondiciones** | *Se espera como resultado …* |
 
 
@@ -50,7 +50,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
 | **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
 | **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | *![diagrama2](./../images/diagrama2.png)*|
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ### 2.3 Requerimiento Funcional 3
@@ -63,7 +63,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
 | **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
 | **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | *![diagrama3](./../images/diagrama3.png)*|
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
