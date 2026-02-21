@@ -67,3 +67,21 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | Se espera como resultado que la información de la cuenta bancaria sea creada, activada, inactivada o actualizada correctamente en el sistema según la operación realizada y los permisos del actor. |
 
 ## 3. Preguntas
+a. ¿Identifica algún requerimiento que deba detallarse más? ¿cuál(es)?
+    RF-03 (Gestión de cuentas bancarias): Dice que los clientes tienen permisos "limitados" pero no especifica cuáles operaciones pueden hacer exactamente. ¿Pueden solo actualizar datos personales? ¿Pueden activar/inactivar sus propias cuentas?
+
+    RF-04 (Consultar saldo): Solo menciona consultar el saldo, pero no aclara si el cliente puede ver el historial de movimientos, últimas transacciones o solo el saldo actual.
+
+    RF-05 (Reportes tributarios): No especifica qué información debe incluir el reporte, ni con qué periodicidad se genera (mensual, anual, bajo demanda).
+
+    RNF-03: Menciona que se deben generar reportes en JSON para la DIAN, pero no existe un requerimiento funcional que explique cómo y cuándo se generan estos reportes para la entidad tributaria.
+b. ¿Requerimientos que se contradigan?
+    RF-05 vs RNF-03: El requerimiento funcional 5 solo habla de generar reportes en PDF para clientes individuales, mientras que el no funcional 3 menciona también generar reportes en JSON para la DIAN. Falta aclarar si son dos tipos de reportes diferentes o si se genera el mismo reporte en dos formatos.
+
+c. ¿2 requerimientos más importantes para la primera iteración?
+    -01 (Autenticación de usuarios): Es la base de todo. Sin poder ingresar al sistema, ninguna otra funcionalidad sirve. Es como la puerta de entrada.
+
+    RF-04 (Consultar saldo): Es la necesidad más básica y común de cualquier cliente. Ver cuánto dinero tiene en su cuenta es lo mínimo que esperaría poder hacer en un sistema bancario.
+
+d. ¿Algún requerimiento que no debería realizarse?
+    Ninguno. Todos los requerimientos parecen necesarios y razonables para un sistema bancario básico. Sin embargo, si hubiera restricciones de tiempo o presupuesto, el RF-05 (reportes tributarios) podría dejarse para una segunda fase, ya que los reportes tributarios generalmente se solicitan pocas veces al año, mientras que las demás funcionalidades se usan diariamente.
