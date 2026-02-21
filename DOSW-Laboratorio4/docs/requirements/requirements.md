@@ -8,21 +8,21 @@ El sistema de Bankify tiene los siguientes requerimientos (descripción a alto n
 
 El sistema de Bankify debe tener la capacidad de:
 
-1.
-2.
-3.
-4.
-5.
+1.El sistema debe permitir la autenticación de usuarios con usuario y contraseña para        operadores y clientes.
+2.El sistema debe permitir crear, activar, inactivar y actualizar información de clientes por supervisores.
+3.El sistema debe permitir crear, activar, inactivar y actualizar información de cuentas bancarias por asesores y clientes (limitado).
+4.El sistema debe permitir consultar el saldo de una cuenta por el cliente propietario.
+5.El sistema debe generar reportes tributarios en PDF para clientes individuales.
 
-### 1.2 Requerimientos funcionales
+### 1.2 Requerimientos no  funcionales
 
 El sistema de Bankify debe tener:
 
-1.
-2.
-3.
-4.
-5.
+1.El número de cuenta debe tener exactamente 10 dígitos numéricos sin caracteres especiales. 
+2.Los dos primeros dígitos del número de cuenta deben representar un banco registrado en el sistema.
+3.Los reportes deben generarse en formatos específicos: PDF para clientes y JSON para DIAN.
+4.El sistema debe ser sencillo y seguro para interacción de clientes.
+5.El sistema debe garantizar seguridad en las operaciones mediante autenticación.
 
 ## 2. Diagramas de caso de uso
 
