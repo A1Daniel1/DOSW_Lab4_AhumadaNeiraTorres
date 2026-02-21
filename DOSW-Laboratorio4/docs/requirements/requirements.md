@@ -9,8 +9,10 @@ El sistema de Bankify tiene los siguientes requerimientos (descripción a alto n
 El sistema de Bankify debe tener la capacidad de:
 
 1.El sistema debe permitir la autenticación de usuarios con usuario y contraseña para        operadores y clientes.
-2.El sistema debe permitir crear, activar, inactivar y actualizar información de clientes por supervisores.
+2.El sistema debe permitir crear, activar, inactivar y actualizar información de clientes por supervisores. 
+https://www.figma.com/site/o1TvLymhdHzRm8Qo0yqIjv/Untitled?node-id=0-1&t=6dTUjAGY3YD7ZEng-1
 3.El sistema debe permitir crear, activar, inactivar y actualizar información de cuentas bancarias por asesores y clientes (limitado).
+https://www.figma.com/site/o1TvLymhdHzRm8Qo0yqIjv/Untitled?node-id=0-1&t=6dTUjAGY3YD7ZEng-1
 4.El sistema debe permitir consultar el saldo de una cuenta por el cliente propietario.
 5.El sistema debe generar reportes tributarios en PDF para clientes individuales.
 
