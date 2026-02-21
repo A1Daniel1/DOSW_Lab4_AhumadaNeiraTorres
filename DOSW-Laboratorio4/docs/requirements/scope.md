@@ -20,7 +20,7 @@ La ausencia de este sistema dificulta la gestión organizada de la información,
 
 ### 3.1 Diagrama
 
-![diagramaDeContexto](./../images/bankify.png)
+![diagramaDeContexto](./../uml/bankify.png)
 
 ### 3.2 Actores
 
