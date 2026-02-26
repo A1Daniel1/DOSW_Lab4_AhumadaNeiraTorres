@@ -11,6 +11,7 @@ buildNumber.properties
 # No ignorar el wrapper de maven si lo usas
 !.mvn/wrapper/maven-wrapper.jar
 
+
 # --- INTELLIJ IDEA ---
 .idea/
 *.iml
